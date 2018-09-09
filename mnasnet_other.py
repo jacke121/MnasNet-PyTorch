@@ -163,8 +163,6 @@ class MnasNet(nn.Module):
         x = x.view(x.size(0), x.size(1))
         return x
 
-
-# if __name__ == '__main__':
 #     net = MnasNet(3, 1000)
 #     input = torch.randn((1, 3, 224, 224))
 #     output = net(input)
